@@ -1,12 +1,16 @@
 # NETRA
 
-Netra is wearable device that helps visually impaired people navigate by providing speech descriptions of the world around them. This repository implements Netra Daemon client that runs on a Raspberry Pi device connected to the standard PiCamera module. To provide real-time environment descriptions Netra-Daemon needs a Netra Vision server running on a computer. Netra Vision implements a Convolutional-Recurrent Neural network that converts images to text descriptions. 
+Netra is wearable device that helps visually impaired people navigate by providing speech descriptions of the world around them. This repository implements Netra Daemon that runs on a Raspberry Pi device connected to the standard PiCamera module. To provide real-time environment descriptions Netra-Daemon needs a Netra Vision server running on a computer. Netra Vision implements a Convolutional-Recurrent Neural network that converts images to text descriptions. 
 Rest of the modules requre Google Vision API authentication to work.
+
+#### Netra Prototype Implementation
+![Netra Prototype Implementation](__images/prototype.jpg)
+
 
 ### Setup
 
 #### To use describe mode
-1. Start the Netra Vision Server by following the instructions in https://github.com/subho406/Netra-Vision
+1. Start the Netra Vision Server by following the instructions specified in https://github.com/subho406/Netra-Vision
 2. Change the global IP variable in netra_daemon.py to the IP address of the Netra Vision server.
 
 #### To use text, raw and face modes
