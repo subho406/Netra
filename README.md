@@ -1,2 +1,4 @@
-# Netra
-Hear the world around you... Audio augmentation for visually impaired
+NETRA
+
+A sound augmented guidance system for helping the visually impaired.
+

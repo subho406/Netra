@@ -1,0 +1,18 @@
+###############################################################################
+
+To setup the google cloud vision api for the project follow the listed steps
+
+1. Create a google cloud account 
+
+2. On the google cloud services account go to the credentials options, click on the create credentials and choose service account key.
+
+3. Download the JSON file and keep it safely for authentication.
+
+3. Navigate to the API section of the dashboard and enable the cloud vision api
+
+4. use the command "sudo pip install -r requirements.txt" for Python2 or "sudo pip3 install -r requirements.txt" for Python3
+
+5. run the command  export GOOGLE_APPLICATION_CREDENTIALS= #the path to the previously downloaded JSON file' 
+
+6. voila! run the vision_api_test.py script to test the google cloud vision.
+
